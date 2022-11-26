@@ -83,4 +83,6 @@ h2 {
 .random-information .secondary-text {
   color: grey;
   max-width: 240px;
+
+  margin: 8px 0;
 }
