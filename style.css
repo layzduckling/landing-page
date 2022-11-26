@@ -87,3 +87,28 @@ h2 {
 
   margin: 8px 0;
 }
+
+.quote {
+  display: flex;
+  flex-direction: column;
+
+  background-color: #E5E7EB;
+  padding: 50px 200px;
+}
+
+.quote p {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  color: #1F2937;
+
+  margin: 18px 0;
+}
+
+.quote .author {
+  font-size: 24px;
+  font-weight: bold;
+  color: black; 
+
+  text-align: right;
+}
