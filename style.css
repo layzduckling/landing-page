@@ -63,7 +63,7 @@ h2 {
 
 .random-information {
   display: flex;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
   justify-content: center;
   gap: 50px;
 
@@ -91,9 +91,10 @@ h2 {
 .quote {
   display: flex;
   flex-direction: column;
+  align-items: center;
 
   background-color: #E5E7EB;
-  padding: 50px 200px;
+  padding: 50px 70px;
 }
 
 .quote p {
@@ -103,6 +104,7 @@ h2 {
   color: #1F2937;
 
   margin: 18px 0;
+  max-width: 1000px;
 }
 
 .quote .author {
@@ -110,5 +112,5 @@ h2 {
   font-weight: bold;
   color: black; 
 
-  text-align: right;
+  align-self: flex-end;
 }
