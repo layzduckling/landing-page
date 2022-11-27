@@ -33,23 +33,27 @@ h1 {
   color: #E5E7EB;
 }
 
+button {
+  color: white;
+  background-color: #3882F6;
+  font-size: 18px;
+  font-weight: 500;
+  
+  border: 2px solid;
+  border-radius: 8px;
+  
+  width: 120px;
+  padding: 6px;
+}
+
 .hero img {
   flex: 1;
   width: 100%;
   max-width: 660px;
 }
 
-.hero button {
-  color: white;
-  font-size: 18px;
-  font-weight: 500;
-
-  background-color: #3882F6;
-  border: 1px solid #3882F6;
-  border-radius: 8px;
-
-  width: 120px;
-  padding: 6px;
+.hero button { 
+  border-color: #3882F6;
 }
 
 h2 {
@@ -114,4 +118,32 @@ h2 {
   color: black; 
 
   align-self: flex-end;
+}
+
+.ad {
+  background-color: #3882F6;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  margin: 100px;
+  padding: 40px 20px;
+
+  border-radius: 8px;
+}
+
+.ad-main-text {
+  font-size: 22px;
+  color: white;
+  font-weight: bold;
+
+  margin: 4px 0;
+}
+
+.ad .secondary-text {
+  margin: 4px 0;
+}
+
+.ad button {
+  border-color: white;
 }
