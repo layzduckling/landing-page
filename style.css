@@ -3,6 +3,26 @@ body {
   margin: 0px;
 }
 
+.header {
+  color: #F9FAF8;
+  background-color: #1F2937;
+  font-size: 24px;
+  font-weight: bold;
+
+  display: flex;
+  justify-content: space-between;
+
+  padding: 15px 70px 0 70px;
+}
+
+.header-links {
+  color: #E5E7EB;
+  display: flex;
+  gap: 12px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
 .hero {
   background-color: #1F2937;
   display: flex;
